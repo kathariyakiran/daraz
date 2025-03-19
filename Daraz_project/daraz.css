@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.function{
+    height: 118.4px;
+    width: 100%;
+    background-color:#fb6207 ;
+}
+.function .start{
+    height: 25px;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    /* gap: 25px; */
+    font-size: 10px
+    
+}
+    .More .save {
+     text-transform: uppercase;
+     height:14.4px ;
+     width:110.53px ;
+     padding: 0px 0px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Seller a{
+    text-transform: uppercase;
+    height:14.4px ;
+    width:102.49px ;
+    padding: 0px 0px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Help .save{
+    text-transform: uppercase;
+    height:14.4px ;
+    width:95.18px ;
+    padding: 0px 0px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.Login a{
+    text-transform: uppercase;
+    height:14.4px ;
+    width:34.33px ;
+    padding: 0px 0px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Sign a{
+    text-transform: uppercase;
+    height:14.4px ;
+    width:45.44px ;
+    padding: 0px 0px;
+    color: white;
+    text-decoration: none;
+    padding-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_container{
+    height: 75px;
+}
+.logodaraz{
+    height: 39px;
+}
+.Search_box placeholder   {
+    height: 40px;
+}
+.logodaraz{
+    padding-top: px;
+}
+.banner{
+    height: 250px;
+    width: 150px;
+}
+.banner .banner1{
+    height: 100%;
+    width: auto;
+    padding-left: 13px;
+}
+.par h3{
+    color:rgb(70, 64, 64);
+    margin: 0px 11px;
+}
+.on_sale .now{
+    color: #fb6207;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 11px;
+    border-bottom: 0.8px solid rgb(116, 110, 110);
+}
+.box{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: antiquewhite;
+    margin: 0px 11px;
+
+}
+.one{
+    height: 120px;
+}
+.detail{
+    text-decoration: none;
+}
