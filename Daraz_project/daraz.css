@@ -74,13 +74,20 @@
     align-items: center;
 }
 .logo_container{
-    height: 75px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
 }
 .logodaraz{
     height: 39px;
 }
 .Search_box placeholder   {
     height: 40px;
+}
+.search_box{
+    background-color: #fb6207;
+    justify-content: center;
 }
 .logodaraz{
     padding-top: px;
@@ -111,13 +118,38 @@
 .box{
     display: flex;
     flex-wrap: nowrap;
-    background-color: antiquewhite;
-    margin: 0px 11px;
+    background-color: transparent;
+    font-style: none;
 
 }
+.Anker{ 
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    padding-left: 20px;
+}
+.Anker:hover{
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0);
+}
+.Anker img{
+    padding-left: 60px;
+    height: 150px;
+    width: 150px
+}
+.Anker .detail {
+    font-weight: 500px;
+    font-size: 20px;
+    padding: 40px
+}
+
 .one{
     height: 120px;
 }
-.detail{
-    text-decoration: none;
+.now {
+    color: #f57224;
 }
+.now .shop {
+    border: 1px solid #f57224;
+    padding: 4px;
+}
+
