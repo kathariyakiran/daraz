@@ -111,13 +111,10 @@
 .box{
     display: flex;
     flex-wrap: nowrap;
-    background-color: antiquewhite;
+    background-color:white;
     margin: 0px 11px;
 
 }
-.one{
-    height: 120px;
-}
-.detail{
+.Anker{
     text-decoration: none;
 }
