@@ -2,6 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+ main{
+    background-color:whitesmoke
+}
 .function{
     height: 80.4px;
     width: 100%;
@@ -81,18 +84,31 @@
 .logodaraz{
     height: 39px;
 }
-.logodaraz{
-    padding-top: px;
-}
 .banner{
+    display: flex;
+    align-items: row;
     height: 250px;
     width: 150px;
 }
  .banner .banner1{
     height: 100%;
-    width: auto;
     padding-left: 13px;
+}
+.qr{
+    padding-left: 15px;
+    
 } 
+.qr .qrcode{
+   height: 100px;
+
+} 
+img.appstore{
+    height: 24px;
+}
+img.googleplay{
+    height: 24px;
+}
+
 .par h3{
     color:rgb(70, 64, 64);
     margin: 0px 11px;
@@ -116,7 +132,7 @@
     display: flex;
     flex-wrap: nowrap;
     background-color:white;
-    justify-content: space-around;
+    justify-content: space-evenly;
    
 
 }
@@ -127,7 +143,7 @@
 }
 .box img{
     padding: 18px;
-    height: 150px;
+    height: 110px;
     
 }
 .one:hover{
@@ -146,13 +162,68 @@
 .item{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    margin-top: 35px;
     
 }
 .bod{
     border: 0.8px solid rgb(183, 165, 165);
 }
-img :hover{
-    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
+ .cat :hover{
+    box-shadow: inset 10px 0 10px rgba(0, 0, 0, 0.8);
     
+}
+p{
+    margin-top: 15px;
+    padding-left: 11px;
+}
+.for{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+    margin-top: 35px;
+
+}
+.for img{
+    height: 150px;
+
+}
+.for :hover{
+    box-shadow: rgb(109, 102, 102);
+}
+.fott{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    margin-top: 20px;
+}
+.foot{
+    border: 1px solid aqua;
+    padding-left:75px;
+    padding-top: 5px;
+    width: 165px;
+    height: 22px;
+    color: aqua;
+}
+.h3{
+    padding-left: 45px;
+    color:darkblue;
+    font-weight:200;
+    font-size: small;
+}
+ul{
+    padding-top:8px;
+    list-style-type: none;
+    padding-left: 45px;
+}
+ul a {
+    text-decoration: none;
+    
+}
+/* li{
+    font-weight: 100;
+    font-size: small;
+} */
+h3{
+    color: darkblue;
 }
