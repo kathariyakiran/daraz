@@ -75,38 +75,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
     .logo_container .search_box{
-        height: 30px;
-        width: 510px;
-        margin-bottom: 15px;
+        height: auto;
+        width: auto;
+        /* padding: 15px; */
+        /* margin-bottom: 55px; */
+    
+    } 
+    input.search_box{
+        height: 80px;
     }
 .logodaraz{
     height: 39px;
+}
+.search {
+    height: 56px;
+    margin-left: 150px;
+    /* margin-bottom: 120px; */
 }
 .banner{
     display: flex;
     align-items: row;
     height: 250px;
     width: 150px;
+    background-color: white;
 }
  .banner .banner1{
     height: 100%;
     padding-left: 13px;
+}
+.linky{
+    display: flex;
+}
+
+.ss{
+    height: 150px;
 }
 .qr{
     padding-left: 15px;
     
 } 
 .qr .qrcode{
-   height: 100px;
+   height: 72px;
 
 } 
 img.appstore{
-    height: 24px;
+    height: 20px;
 }
 img.googleplay{
-    height: 24px;
+    height: 20px;
 }
 
 .par h3{
